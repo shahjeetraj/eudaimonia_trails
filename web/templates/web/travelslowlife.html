@@ -1,0 +1,711 @@
+{% extends 'web/layout.html' %}
+
+{% load static %}
+
+{% block title %}Eudaimonia Trails | First Product | travelslow.life | Find Destinations without Crowds{% endblock %}
+
+{% block body %}
+
+<!-- HERO
+    ================================================== -->
+    <section class="section section-top section-full">
+
+        <!-- Cover -->
+        <div class="bg-cover" style="background-image: url(/static/images/1.jpg);"></div>
+  
+        <!-- Overlay -->
+        <div class="bg-overlay"></div>
+  
+        <!-- Triangles -->
+        <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-left"></div>
+        <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-right"></div>
+  
+        <!-- Content -->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-lg-5 align-self-end">
+  
+              <!-- Preheading -->
+              <p class="font-weight-medium text-xs text-uppercase text-white text-muted" data-toggle="animation" data-animation="fadeUp" data-animation-order="0" data-animation-trigger="load">
+                by Eudaimonia Trails
+              </p>
+              
+              <!-- Heading -->
+              <h1 class="text-white mb-4" data-toggle="animation" data-animation="fadeUp" data-animation-order="1" data-animation-trigger="load">
+                <span class="text-primary">travelslow.life</span> helps discover destinations that are not crowded.
+              </h1>
+  
+              <!-- Subheading -->
+              <p class="text-white text-muted mb-5 mb-md-0" data-toggle="animation" data-animation="fadeUp" data-animation-order="2" data-animation-trigger="load">
+                Combining the Power of Web with Artificial Intelligence to bring forward the travel destinations that are not crowded. Experience the best holidays in peace and serenity.
+              </p>
+  
+            </div>
+            <div class="col-md-4 col-lg-7 align-self-center d-flex justify-content-end">
+              
+              <!-- Heading -->
+              <h4 class="text-vertical text-white mb-0">
+                <span>travelslow.life</span>
+              </h4>
+  
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+  
+      </section>
+  
+      <!-- ABOUT
+      ================================================== -->
+      <section class="section pb-0">
+  
+        <!-- Content -->
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 col-lg-5 offset-lg-1">
+              
+              <!-- Image -->
+              <div class="img-effect img-effect-solid mb-5 mb-md-0">
+                <img src="{% static 'images/2.jpg' %}" class="img-fluid" alt="AI powered tool - travel slow">
+              </div>
+  
+            </div>
+            <div class="col-md-6 col-lg-4 offset-lg-1">
+  
+              <!-- Heading -->
+              <h2 class="mb-4">
+                AI powered tool to discover destinations
+              </h2>
+  
+              <!-- Content -->
+              <p class="text-muted">
+                Destination Discovery is probably the most important part of Travel Journey of avid travelers. Travel Slow helps in finding peaceful and not so crowded destinations!
+              </p>
+  
+              <!-- Button -->
+                <a href="https://travelslow.life" class="btn btn-outline-primary" target=”_blank”>Visit travelslow.life</a>
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+  
+      </section>
+  
+      <!-- ABOUT
+      ================================================== -->
+      <section class="section">
+  
+        <!-- Content -->
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 col-lg-5 offset-lg-1 order-md-2">
+              
+              <!-- Image -->
+              <div class="img-effect img-effect-border mb-5 mb-md-0">
+                <img src="{% static 'images/3.jpg' %}" class="img-fluid" alt="Solution for over-tourism">
+              </div>
+  
+            </div>
+            <div class="col-md-6 col-lg-4 offset-lg-1 order-md-1">
+  
+              <!-- Heading -->
+              <h2 class="mb-4">
+                Theme Based Destination Discovery
+              </h2>
+  
+              <!-- Content -->
+              <p class="text-muted">
+                Currently a handful of destinations are sold by tour operators, travel agents and airlines. Instead search using themes you are interested in. travelslow.life tries to provide new destinations on every search.
+              </p>
+  
+              <!-- Button -->
+              <a href="https://travelslow.life" class="btn btn-outline-primary" target=”_blank”>
+                Use Customize option
+              </a>
+              
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+  
+      </section>
+  
+      <!-- CTA
+      ================================================== -->
+      <section class="section bg-dark">
+  
+        <!-- Pattern -->
+        <div class="bg-triangle bg-triangle-light bg-triangle-top bg-triangle-left"></div>
+        <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-right"></div>
+  
+        <!-- Content -->
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-8">
+              
+              <!-- Heading -->
+              <h3 class="text-white mb-4">
+                Do you want to solve over-tourism?
+              </h3>
+  
+              <!-- Content -->
+              <p class="text-white text-muted mb-4 mb-md-0">
+                Currently every travel agent focusses on selling limited destinations. These might be already overflowing with tourists. Not every traveler want to visit similar destinations. If every traveler follows their heart and find destinations that match their theme, will it not solve the over-tourism problem?
+              </p>
+  
+            </div>
+            <div class="col-md-4">
+              
+              <!-- Button -->
+              <a href="https://travelslow.life/contact" class="btn btn-outline-primary text-white" target=”_blank”>
+                Let us know your view
+              </a>
+  
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+  
+      </section>
+  
+      <!-- MODELS
+      ================================================== -->
+      <section class="section">
+        <div class="model">
+  
+          <!-- Content -->
+          <div class="container">
+            <div class="row align-items-center mb-5">
+              <div class="col-12">
+                
+                <div class="slider slider-no-controls" id="productSliderLg" data-bind="slider" data-target="#productSliderSm">
+                  <div class="slider-item">
+                    
+                    <div class="row">
+                      <div class="col-md-1 d-flex align-self-center d-flex justify-content-end">
+                        
+                        <!-- Category -->
+                        <div class="model-cat mb-4 mb-md-0">
+                          <h4 class="text-vertical">
+                            <span class="model-cat-title text-zigzag fade show">
+                              travelslow.life
+                            </span>
+                          </h4>
+                        </div>
+  
+                      </div>
+                      <div class="col-md-7">
+                        
+                        <!-- Image -->
+                        <div class="model-img mb-5 mb-md-0">
+  
+                          <!-- Image -->
+                          <img src="{% static 'images/4.jpg' %}" class="model-img-src img-fluid fade show" alt="home page">
+  
+                        </div> <!-- / .model-img -->
+  
+                      </div>
+                      <div class="col-md-4">
+  
+                        <!-- Heading -->
+                        <h3 class="model-heading mb-4 fade show">
+                          Travel Slow Life - Home Page
+                        </h3>
+  
+                        <!-- Content -->
+                        <div class="model-content mb-5 mb-md-0 fade show">
+  
+                          <!-- Blockquote -->
+                          <blockquote class="blockquote">
+                            <p class="mb-0">
+                              Travel Slow is a concept that stands for experience based travel. At the same time travel slow uses AI to find unique destinations that are not crowded.
+                            </p>
+                          </blockquote>
+  
+                          <!-- Content -->
+                          <p>
+                            On the home page travelers can either search for destinations using themes, country name or a dream activity; or they can click on explore to view random destinations.
+                          </p>
+  
+                          <!-- Button -->
+                          <a href="https://travelslow.life" class="btn btn-outline-primary" target="_blank">
+                            Try now
+                          </a>
+  
+                        </div> <!-- / .model-content -->
+  
+                      </div>            
+                    </div> <!-- / .row -->                  
+                  </div>
+                  <div class="slider-item">
+                    
+                    <div class="row">
+                      <div class="col-md-1 d-flex align-self-center d-flex justify-content-end">
+                        
+                        <!-- Category -->
+                        <div class="model-cat mb-4 mb-md-0">
+                          <h4 class="text-vertical">
+                            <span class="model-cat-title text-zigzag fade show">
+                              travelslow.life
+                            </span>
+                          </h4>
+                        </div>
+  
+                      </div>
+                      <div class="col-md-7">
+                        
+                        <!-- Image -->
+                        <div class="model-img mb-5 mb-md-0">
+  
+                          <!-- Image -->
+                          <img src="{% static 'images/5.jpg' %}" class="model-img-src img-fluid fade show" alt="top destinations">
+  
+                        </div> <!-- / .model-img -->
+  
+                      </div>
+                      <div class="col-md-4">
+  
+                        <!-- Heading -->
+                        <h3 class="model-heading mb-4 fade show">
+                          Travel Slow Life - Top Destinations
+                        </h3>
+  
+                        <!-- Content -->
+                        <div class="model-content mb-5 mb-md-0 fade show">
+  
+                          <!-- Blockquote -->
+                          <blockquote class="blockquote">
+                            <p class="mb-0">
+                              Top Destinations are latest search results. They provide an idea to new or returning user on how unique the search results are.
+                            </p>
+                          </blockquote>
+  
+                          <!-- Content -->
+                          <p>
+                            Every result returned by travelslow.life is unique and generally untouched by huge tourist masses. Going through this section will inspire the travelers for sure!
+                          </p>
+  
+                          <!-- Button -->
+                          <a href="https://travelslow.life" class="btn btn-outline-primary" target="_blank">
+                            Try now
+                          </a>
+  
+                        </div> <!-- / .model-content -->
+  
+                      </div>            
+                    </div> <!-- / .row -->                  
+                  </div>
+                  <div class="slider-item">
+                    
+                    <div class="row">
+                      <div class="col-md-1 d-flex align-self-center d-flex justify-content-end">
+                        
+                        <!-- Category -->
+                        <div class="model-cat mb-4 mb-md-0">
+                          <h4 class="text-vertical">
+                            <span class="model-cat-title text-zigzag fade show">
+                              travelslow.life
+                            </span>
+                          </h4>
+                        </div>
+  
+                      </div>
+                      <div class="col-md-7">
+                        
+                        <!-- Image -->
+                        <div class="model-img mb-5 mb-md-0">
+  
+                          <!-- Image -->
+                          <img src="{% static 'images/6.jpg' %}" class="model-img-src img-fluid fade show" alt="footer">
+  
+                        </div> <!-- / .model-img -->
+  
+                      </div>
+                      <div class="col-md-4">
+  
+                        <!-- Heading -->
+                        <h3 class="model-heading mb-4 fade show">
+                          Travel Slow Life - Footer
+                        </h3>
+  
+                        <!-- Content -->
+                        <div class="model-content mb-5 mb-md-0 fade show">
+  
+                          <!-- Blockquote -->
+                          <blockquote class="blockquote">
+                            <p class="mb-0">
+                              Footer is a very important SEO tool and is most basic component of any website portal.
+                            </p>
+                          </blockquote>
+  
+                          <!-- Content -->
+                          <p>
+                            There are multiple assets located in the footer such as a Sitemap, listing of various themes and a CTA for newsletter subscription.
+                          </p>
+  
+                          <!-- Button -->
+                          <a href="https://travelslow.life" class="btn btn-outline-primary">
+                            Try now
+                          </a>
+  
+                        </div> <!-- / .model-content -->
+  
+                      </div>            
+                    </div> <!-- / .row -->                  
+                  </div>
+                  <div class="slider-item">
+                    
+                    <div class="row">
+                      <div class="col-md-1 d-flex align-self-center d-flex justify-content-end">
+                        
+                        <!-- Category -->
+                        <div class="model-cat mb-4 mb-md-0">
+                          <h4 class="text-vertical">
+                            <span class="model-cat-title text-zigzag fade show">
+                              travelslow.life
+                            </span>
+                          </h4>
+                        </div>
+  
+                      </div>
+                      <div class="col-md-7">
+                        
+                        <!-- Image -->
+                        <div class="model-img mb-5 mb-md-0">
+  
+                          <!-- Image -->
+                          <img src="{% static 'images/7.jpg' %}" class="model-img-src img-fluid fade show" alt="customize search">
+  
+                        </div> <!-- / .model-img -->
+  
+                      </div>
+                      <div class="col-md-4">
+  
+                        <!-- Heading -->
+                        <h3 class="model-heading mb-4 fade show">
+                          Travel Slow Life - 'Customize' Search
+                        </h3>
+  
+                        <!-- Content -->
+                        <div class="model-content mb-5 mb-md-0 fade show">
+  
+                          <!-- Blockquote -->
+                          <blockquote class="blockquote">
+                            <p class="mb-0">
+                              Every traveler can now focus on what they want out of a trip and not worry about crowds!
+                            </p>
+                          </blockquote>
+  
+                          <!-- Content -->
+                          <p>
+                            All that travelers need is to select their theme, provide a country if they want to travel a specific country or provide a dream activity to know about destinations that provide that facility.
+                          </p>
+  
+                          <!-- Button -->
+                          <a href="#!" class="btn btn-outline-primary">
+                            Purchase now
+                          </a>
+  
+                        </div> <!-- / .model-content -->
+  
+                      </div>            
+                    </div> <!-- / .row -->                  
+                  </div>
+                  <div class="slider-item">
+                    
+                    <div class="row">
+                      <div class="col-md-1 d-flex align-self-center d-flex justify-content-end">
+                        
+                        <!-- Category -->
+                        <div class="model-cat mb-4 mb-md-0">
+                          <h4 class="text-vertical">
+                            <span class="model-cat-title text-zigzag fade show">
+                              travelslow.life
+                            </span>
+                          </h4>
+                        </div>
+  
+                      </div>
+                      <div class="col-md-7">
+                        
+                        <!-- Image -->
+                        <div class="model-img mb-5 mb-md-0">
+  
+                          <!-- Image -->
+                          <img src="{% static 'images/8.jpg' %}" class="model-img-src img-fluid fade show" alt="destinations search results">
+  
+                        </div> <!-- / .model-img -->
+  
+                      </div>
+                      <div class="col-md-4">
+  
+                        <!-- Heading -->
+                        <h3 class="model-heading mb-4 fade show">
+                          Travel Slow Life - Destination Search Results
+                        </h3>
+  
+                        <!-- Content -->
+                        <div class="model-content mb-5 mb-md-0 fade show">
+  
+                          <!-- Blockquote -->
+                          <blockquote class="blockquote">
+                            <p class="mb-0">
+                              5 Destinations that match your search parameters along with not being crowded are provided on this page.
+                            </p>
+                          </blockquote>
+  
+                          <!-- Content -->
+                          <p>
+                            Open AI provides results for the search parameters and are displayed on the results page.
+                          </p>
+  
+                          <!-- Button -->
+                          <a href="https://travelslow.life" class="btn btn-outline-primary">
+                            Try now
+                          </a>
+  
+                        </div> <!-- / .model-content -->
+  
+                      </div>            
+                    </div> <!-- / .row -->                  
+                  </div>
+                  <div class="slider-item">
+                    
+                    <div class="row">
+                      <div class="col-md-1 d-flex align-self-center d-flex justify-content-end">
+                        
+                        <!-- Category -->
+                        <div class="model-cat mb-4 mb-md-0">
+                          <h4 class="text-vertical">
+                            <span class="model-cat-title text-zigzag fade show">
+                              travelslow.life
+                            </span>
+                          </h4>
+                        </div>
+  
+                      </div>
+                      <div class="col-md-7">
+                        
+                        <!-- Image -->
+                        <div class="model-img mb-5 mb-md-0">
+  
+                          <!-- Image -->
+                          <img src="{% static 'images/9.jpg' %}" class="model-img-src img-fluid fade show" alt="destination page">
+  
+                        </div> <!-- / .model-img -->
+  
+                      </div>
+                      <div class="col-md-4">
+  
+                        <!-- Heading -->
+                        <h3 class="model-heading mb-4 fade show">
+                          Travel Slow Life - Destination Page Sample 1
+                        </h3>
+  
+                        <!-- Content -->
+                        <div class="model-content mb-5 mb-md-0 fade show">
+  
+                          <!-- Blockquote -->
+                          <blockquote class="blockquote">
+                            <p class="mb-0">
+                              The Destination Page is the ultimate product of Travel Slow Life.
+                            </p>
+                          </blockquote>
+  
+                          <!-- Content -->
+                          <p>
+                            Every detail that interests the traveler will be shown on this page. In future more content and booking links will be added to this page.
+                          </p>
+  
+                          <!-- Button -->
+                          <a href="https://travelslow.life/destView/Lofoten%20Islands" class="btn btn-outline-primary" target="_blank">
+                            Visit Page
+                          </a>
+  
+                        </div> <!-- / .model-content -->
+  
+                      </div>            
+                    </div> <!-- / .row -->                  
+                  </div>
+                  <div class="slider-item">
+                    
+                    <div class="row">
+                      <div class="col-md-1 d-flex align-self-center d-flex justify-content-end">
+                        
+                        <!-- Category -->
+                        <div class="model-cat mb-4 mb-md-0">
+                          <h4 class="text-vertical">
+                            <span class="model-cat-title text-zigzag fade show">
+                              travelslow.life
+                            </span>
+                          </h4>
+                        </div>
+  
+                      </div>
+                      <div class="col-md-7">
+                        
+                        <!-- Image -->
+                        <div class="model-img mb-5 mb-md-0">
+  
+                          <!-- Image -->
+                          <img src="{% static 'images/10.jpg' %}" class="model-img-src img-fluid fade show" alt="destination page">
+  
+                        </div> <!-- / .model-img -->
+  
+                      </div>
+                      <div class="col-md-4">
+  
+                        <!-- Heading -->
+                        <h3 class="model-heading mb-4 fade show">
+                          Travel Slow Life - Destination Page Sample 2
+                        </h3>
+  
+                        <!-- Content -->
+                        <div class="model-content mb-5 mb-md-0 fade show">
+  
+                          <!-- Blockquote -->
+                          <blockquote class="blockquote">
+                            <p class="mb-0">
+                              There are indicative images on the page that will give the traveler a feel of the destination.
+                            </p>
+                          </blockquote>
+  
+                          <!-- Content -->
+                          <p>
+                            In future more details will be added on this page and hotel, flight, transfer booking facility will also be provided.
+                          </p>
+  
+                          <!-- Button -->
+                          <a href="https://travelslow.life/destView/Westfjords" class="btn btn-outline-primary" target="_blank">
+                            Visit Page
+                          </a>
+  
+                        </div> <!-- / .model-content -->
+  
+                      </div>            
+                    </div> <!-- / .row -->                  
+                  </div>
+                </div> <!-- / .slider -->
+  
+              </div>
+            </div> <!-- / .row -->
+          </div> <!-- / .container -->
+  
+          <!-- Slider -->
+          <div class="slider slider-highlight" id="productSliderSm" data-bind="slider" data-target="#productSliderLg">
+            <div class="slider-item col-6 col-md-2">
+              
+              <!-- Image -->
+              <img src="{% static 'images/4.jpg' %}" alt="home page" class="img-fluid">
+  
+            </div>
+            <div class="slider-item col-6 col-md-2">
+              
+              <!-- Image -->
+              <img src="{% static 'images/5.jpg' %}" alt="top destinations" class="img-fluid">
+  
+            </div>
+            <div class="slider-item col-6 col-md-2">
+              
+              <!-- Image -->
+              <img src="{% static 'images/6.jpg' %}" alt="footer" class="img-fluid">
+  
+            </div>
+            <div class="slider-item col-6 col-md-2">
+              
+              <!-- Image -->
+              <img src="{% static 'images/7.jpg' %}" alt="customize search" class="img-fluid">
+  
+            </div>
+            <div class="slider-item col-6 col-md-2">
+              
+              <!-- Image -->
+              <img src="{% static 'images/8.jpg' %}" alt="destination search results" class="img-fluid">
+  
+            </div>
+            <div class="slider-item col-6 col-md-2">
+              
+              <!-- Image -->
+              <img src="{% static 'images/9.jpg' %}" alt="destination page" class="img-fluid">
+  
+            </div>
+            <div class="slider-item col-6 col-md-2">
+              
+              <!-- Image -->
+              <img src="{% static 'images/10.jpg' %}" alt="destination page" class="img-fluid">
+  
+            </div>
+          </div> <!-- / .slider -->
+        
+        </div> <!-- / .model -->
+      </section>
+  
+      <!-- PROMO
+      ================================================== -->
+      <section class="section section-full">
+  
+        <!-- Cover -->
+        <div class="bg-cover" style="background-image: url(/static/images/11.jpg);"></div>
+        
+        <!-- Content -->
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-10 col-lg-8">
+              
+              <!-- Promo -->
+              <div class="bg-white text-center shadow py-5 px-4 p-md-6">
+                
+                <!-- Icon -->
+                <div class="mb-4">
+                  <span class="icon icon-diamond icon-2x"></span>
+                </div>
+  
+                <!-- Heading -->
+                <h2 class="mb-4">
+                  A long-term product vision
+                </h2>
+  
+                <!-- Content -->
+                <p class="text-muted mb-5">
+                  We want to allow travelers to <span class="text-primary">experience</span> limitless amazing destinations with <span class="text-primary">peace and tranquility</span>. Let us know if you too want to implement a similar tool.
+                </p>
+  
+                <!-- Button -->
+                <a href="{% url 'contact' %}" class="btn btn-outline-primary">
+                  Contact us
+                </a>
+  
+              </div>
+              
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+  
+      </section>
+  
+      <!-- QUOTE
+      ================================================== -->
+      <section class="section">
+  
+        <!-- Content -->
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-9">
+              
+              <!-- Quote -->
+              <div class="quote">
+                <blockquote class="quote-blockquote">
+                  <p class="quote-blockquote-content">
+                    While we currently offer destination discovery, we are soon updating our systems so that you can book flights, hotels and other services to experience these amazing destinations.
+                  </p>
+                  <footer class="quote-blockquote-footer">
+                    <span class="text-zigzag">
+                      travelslow.life team
+                    </span>
+                  </footer>
+                </blockquote>
+              </div> <!-- / .quote -->
+              
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+  
+      </section>
+
+{% endblock %}

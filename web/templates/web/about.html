@@ -1,0 +1,270 @@
+{% extends 'web/layout.html' %}
+
+{% load static %}
+
+{% block title %}Eudaimonia Trails | About us{% endblock %}
+
+{% block body %}
+
+<!-- CONVERT NAVBAR TO LIGHT FROM BEGINNING
+    ================================================== -->
+<script>
+    var nav = document.getElementById("originalNavbar");
+    nav.classList.remove("navbar-togglable");  // Remove toggleable class
+    nav.classList.remove("navbar-dark");  // Remove dark class
+    nav.classList.add("navbar-light");  // Add light class
+</script>
+
+<!-- BREADCRUMB
+    ================================================== -->
+    <nav class="breadcrumb">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col">
+              
+              <!-- Heading -->
+              <h5 class="breadcrumb-heading">
+                About
+              </h5>
+  
+            </div>
+            <div class="col-auto">
+  
+              <!-- Breadcrumb -->
+              <span class="breadcrumb-item">
+                <a href="\">Home</a>
+              </span>
+              <span class="breadcrumb-item active">
+                About
+              </span>
+            
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+      </nav>
+      
+      <!-- HEADER
+      ================================================== -->
+      <section class="section pb-0">
+  
+        <!-- Content -->
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              
+              <!-- Header -->
+              <div class="header bg-cover" style="background-image: url(/static/images/15.jpg);"></div>
+  
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+  
+      </section>
+  
+      <!-- ABOUT
+      ================================================== -->
+      <section class="section pb-0">
+  
+        <!-- Content -->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2">
+              
+              <!-- Title -->
+              <h6 class="title">
+                About the company
+              </h6>
+  
+            </div>
+            <div class="col-md-5">
+              
+              <!-- Heading -->
+              <h3 class="mb-4">
+                We have embarked on a mission to <span class="text-primary">redefine and enhance your travel experiences</span>.
+              </h3>
+  
+              <!-- Content -->
+              <blockquote class="blockquote">
+                <p class="mb-0" style="text-align: justify;">
+                    Our commitment is deeply rooted in the belief that every journey should be more than just a trip; it should be a transformative experience that enriches your life.
+                </p>
+              </blockquote>
+              <p class="text-muted" style="text-align: justify;">
+                Eudaimonia Trails is not just a travel company; we are your companions in the quest for meaningful journeys. Established under the Corporate Identity Number (CIN) U79110MH2023OPC415157, we operate as a private limited company in adherence to the highest standards of professionalism.
+              </p>
+            </div>
+            <div class="col-md-5">
+              
+              <!-- Content -->
+              <p class="text-muted" style="text-align: justify;">
+                Eudaimonia: A Greek term representing the state of flourishing and living a fulfilling life. This concept is at the core of everything we do. We strive to create trails that lead not just to destinations but to moments of joy, discovery, and personal growth.
+              </p>
+              <p class="text-muted" style="text-align: justify;">
+                At Eudaimonia Trails, we understand that each traveler and each travel business owner seeks something unique. Whether you're an adventure seeker, a cultural explorer, or someone looking to start online travel business, we build products and curate experiences that align with your desires.
+              </p>
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+  
+      </section>
+  
+      <!-- TEAM
+      ================================================== -->
+      <section class="section pb-0">
+        
+        <!-- Content -->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2">
+              
+              <!-- Title -->
+              <h6 class="title">
+                About me
+              </h6>
+  
+            </div>
+            <div class="col-md-10">
+              
+              <!-- Heading -->
+              <h3 class="mb-4">
+                People behind the scenes
+              </h3>
+  
+              <!-- Subheading -->
+              <p class="text-muted mb-5">
+                Currently the company is a One Person Company, wholly run by a single person. But it can change. Let us know if you or someone you know wants to be a part of something exciting.
+              </p>
+  
+              <!-- Team -->
+              <div class="row">
+                <div class="col-md-4">
+                  
+                  <!-- Card -->
+                  <div class="card card-sm border-0 mb-3 mb-md-0">
+                    
+                    <!-- Image -->
+                    <img src="{% static 'images/16.png' %}" alt="jeetraj shah" class="card-img-top">
+  
+                    <!-- Body -->
+                    <div class="card-body">
+                      
+                      <!-- Title -->
+                      <h5 class="card-title">
+                        Jeetraj Shah, <small class="text-muted">Director</small>
+                      </h5>
+  
+                      <!-- Text -->
+                      <ul class="card-text list-inline list-unstyled">
+                        <li class="list-inline-item">
+                          <a href="https://www.linkedin.com/in/shahjeetraj/">
+                            <i class="fab fa-linkedin"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item ml-3">
+                          <a href="https://www.facebook.com/shahjeetraj">
+                            <i class="fab fa-facebook"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item ml-3">
+                          <a href="https://www.instagram.com/shahjeetraj/">
+                            <i class="fab fa-instagram"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item ml-3">
+                            <a href="https://github.com/shahjeetraj/">
+                              <i class="fab fa-github"></i>
+                            </a>
+                          </li>
+                      </ul>
+  
+                    </div>
+  
+                  </div> <!-- / .card -->
+  
+                </div>
+                
+              </div> <!-- / .row -->
+  
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+  
+      </section>
+  
+      <!-- BRANDS
+      ================================================== -->
+      <section class="section">
+  
+        <!-- Content -->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2">
+              
+              <!-- Title -->
+              <h6 class="title">
+                Our clients
+              </h6>
+  
+            </div>
+            <div class="col-md-10">
+  
+              <!-- Heading -->
+              <h3 class="mb-4">
+                Some of our <span class="text-primary">happy</span> clients
+              </h3>
+  
+              <!-- Subheading -->
+              <p class="text-muted mb-5">
+                Nope, no one so far. But, it only means you can be here and we can dedicate more time to you.
+              </p>
+              
+              <!-- Brands -->
+              <div class="form-row align-items-center">
+                <div class="col-6 col-md">
+                  
+                  <!-- Item -->
+                  <a href="#" class="brand-item mb-3 mb-md-0">
+                    <i class="fab fa-paypal"></i>
+                  </a>
+  
+                </div>
+                <div class="col-6 col-md">
+                  
+                  <!-- Item -->
+                  <a href="#" class="brand-item mb-3 mb-md-0">
+                    <i class="fab fa-aws"></i>
+                  </a>
+  
+                </div>
+                <div class="col-6 col-md">
+                  
+                  <!-- Item -->
+                  <a href="#" class="brand-item mb-3 mb-md-0">
+                    <i class="fab fa-bootstrap"></i>
+                  </a>
+  
+                </div>
+                <div class="col-6 col-md">
+                  
+                  <!-- Item -->
+                  <a href="#" class="brand-item mb-3 mb-md-0">
+                    <i class="fab fa-mailchimp"></i>
+                  </a>
+  
+                </div>
+                <div class="col-6 col-md">
+                  
+                  <!-- Item -->
+                  <a href="#" class="brand-item">
+                    <i class="fab fa-python"></i>
+                  </a>
+  
+                </div>
+              </div> <!-- / .row -->
+  
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+        
+      </section>
+{% endblock %}

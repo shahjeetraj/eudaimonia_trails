@@ -1,0 +1,137 @@
+{% extends 'web/layout.html' %}
+
+{% load static %}
+
+{% block title %}Eudaimonia Trails | Terms and Conditions{% endblock %}
+
+{% block body %}
+
+<!-- CONVERT NAVBAR TO LIGHT FROM BEGINNING
+    ================================================== -->
+    <script>
+      var nav = document.getElementById("originalNavbar");
+      nav.classList.remove("navbar-togglable");  // Remove toggleable class
+      nav.classList.remove("navbar-dark");  // Remove dark class
+      nav.classList.add("navbar-light");  // Add light class
+  </script>
+
+<!-- BREADCRUMB
+    ================================================== -->
+    <nav class="breadcrumb">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col">
+            
+            <!-- Heading -->
+            <h5 class="breadcrumb-heading">
+              Terms and Conditions
+            </h5>
+
+          </div>
+          <div class="col-auto">
+
+            <!-- Breadcrumb -->
+            <span class="breadcrumb-item">
+              <a href="\">Home</a>
+            </span>
+            <span class="breadcrumb-item active">
+              T & C
+            </span>
+          
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </nav>
+
+    <!-- Content
+    ================================================== -->
+    <section class="section pb-0">
+
+      <!-- Content -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+
+            <!-- Title -->
+            <h6 class="title">
+              Terms of Use
+            </h6>
+            
+          </div>
+          <div class="col-md-10">
+
+            <!-- Heading -->
+            <h3 class="mb-4">
+              Go carefully through our <span class="text-primary">terms and conditions</span>
+            </h3>
+
+            <!-- Subheading -->
+            <p class="text-muted mb-5">
+                Last Updated: [27-Jan-2024]
+            </p>
+            <p class="text-muted mb-5">
+                Welcome to Eudaimonia Trails! These terms and conditions outline the rules and regulations for the use of our services. By accessing or using our services, you agree to comply with and be bound by these terms. If you disagree with any part of these terms, please refrain from using our services.
+            </p>
+            
+            <ol>
+                <li>
+                    <h5>General</h5>
+                    <p class="text-muted">1.1 Eudaimonia Trails (OPC) Private Limited is a registered company under the Corporate Identity Number (CIN) U79110MH2023OPC415157.</p>
+                    <p class="text-muted mb-5">1.2 These terms apply to all visitors, users, and others who access or use our services.</p>
+                </li>
+                <li>
+                    <h5>Services</h5>
+                    <p class="text-muted">2.1 Eudaimonia Trails provides a range of travel-related solutions, including but not limited to itinerary planning, travel marketplace development, and technological solutions for the travel industry.</p>
+                    <p class="text-muted mb-5">2.2 We reserve the right to modify, suspend, or discontinue any part of our services at any time.</p>
+                </li>
+                <li>
+                    <h5>User Responsibilities</h5>
+                    <p class="text-muted">3.1 Users are responsible for ensuring the security and confidentiality of their account information.</p>
+                    <p class="text-muted mb-5">3.2 Users agree not to engage in any activity that may disrupt or interfere with our services.</p>
+                </li>
+                <li>
+                    <h5>Intellectual Property</h5>
+                    <p class="text-muted">4.1 All materials on this Site, including but not limited to audio, images, software, text, icons, and such like code, are protected by copyright under international conventions and copyright laws. You cannot use the Content, except as specified herein. You agree to follow all instructions on this Site limiting the way you may use the Content.</p>
+                    <p class="text-muted mb-5">4.2 There are proprietary logos, service marks, and trademarks found on this Site owned/used by Eudaimonia Trails. Displaying them on this Site does not grant you any license to utilize those proprietary logos, service marks, or trademarks.</p>
+                </li>
+                <li>
+                    <h5>Privacy</h5>
+                    <p class="text-muted">5.1 We are committed to protecting user privacy. Our Privacy Policy outlines the ways we collect, use, and safeguard user information.</p>
+                    <p class="text-muted mb-5">5.2 By using our services, you consent to the terms outlined in our <a href="{% url 'privacy' %}">Privacy Policy.</a></p>
+                </li>
+                <li>
+                    <h5>Payment and Fees</h5>
+                    <p class="text-muted">6.1 Certain services provided by Eudaimonia Trails may require payment. Users agree to pay all applicable fees and charges.</p>
+                    <p class="text-muted mb-5">6.2 Fees are subject to change, and users will be notified of any modifications.</p>
+                </li>
+                <li>
+                    <h5>Termination</h5>
+                    <p class="text-muted">7.1 Eudaimonia Trails reserves the right to terminate or suspend access to our services at any time, with or without cause.</p>
+                    <p class="text-muted mb-5">7.2 Upon termination, users are still bound by sections regarding intellectual property, disclaimers, and limitations of liability.</p>
+                </li>
+                <li>
+                    <h5>Disclaimer</h5>
+                    <p class="text-muted">8.1 Our services are provided "as is" without any warranty, either expressed or implied.</p>
+                    <p class="text-muted mb-5">8.2 Eudaimonia Trails does not guarantee the accuracy, completeness, or timeliness of the information provided in the systems since these are based on external resources.</p>
+                </li>
+                <li>
+                    <h5>Governing Law</h5>
+                    <p class="text-muted mb-5">9.1 These terms and conditions are governed by and construed in accordance with the laws in jurisdiction of Maharashtra State of India.</p>
+                </li>
+                <li>
+                    <h5>Contact Information</h5>
+                    <p class="text-muted mb-5">10.1 For questions or concerns regarding these terms and conditions, please <a class="text-primary" href="{% url 'contact' %}">contact us</a> through our designated communication channels.</p>
+                </li>
+            </ol>
+            <p class="text-muted mb-5">
+            Thank you for choosing Eudaimonia Trails. We look forward to providing you with exceptional travel technology solutions.
+            <hr>
+            </p>
+            
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+
+    </section>
+
+{% endblock %}

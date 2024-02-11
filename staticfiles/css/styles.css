@@ -1,0 +1,116 @@
+.btn {
+    border-radius: 0%;
+}
+
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    color: #5a5a5a;
+}
+
+.header {
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding: 30vw 0 5vw;
+    position: relative;
+    transform-style: inherit;
+    width: 100vw;
+    color: white;
+}
+
+.header h1 {
+    margin-top: -100px;
+}
+
+.header, .header:before {
+    background: 50% 50% / cover;
+}
+
+.header::before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    background-image: url("https://images.unsplash.com/photo-1589670542913-d863d3185b64?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 100vh;
+}
+
+.header * {
+    font-weight: normal;
+    letter-spacing: 0.2em;
+    text-align: center;
+    margin: 0;
+    padding: 1em 0;
+}
+
+/* GLOBAL STYLES  
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+.featurette-heading {
+    line-height: 1;
+    /* rtl:remove */
+    letter-spacing: -.05rem;
+  }
+
+.featurette {
+    padding: 50px;
+  }
+  
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+@media (min-width: 40em) {
+    /* Bump up size of carousel content */
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+@media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+  
+footer {
+    padding: 50px;
+    font-size: smaller;
+  }
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav > li, .dropdown-menu > li {
+  font-weight: lighter;
+}
+
+.nav:hover > li:hover {
+  font-weight: normal;
+}
